@@ -1,12 +1,29 @@
 <template>
   <div id="app">
-    <div id="nav">
+    <app-header></app-header>
+    <l-article></l-article>
+    <app-footer></app-footer>
+    <!-- <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    </div>-->
+    <!-- <router-view/> -->
   </div>
 </template>
+<script>
+import Header from './components/Header'
+import Footer from './components/Footer'
+import article from './views/Article'
+export default {
+  components: {
+    'app-header': Header,
+    'l-article': article,
+    'app-footer': Footer
+  },
+  data () {
+  }
+}
+</script>
 
 <style>
 #app {
