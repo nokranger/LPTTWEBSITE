@@ -21,6 +21,9 @@ export default {
     'app-footer': Footer
   },
   data () {
+    return {
+      count: 0
+    }
   }
 }
 </script>

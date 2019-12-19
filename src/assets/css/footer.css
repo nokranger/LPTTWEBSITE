@@ -1,9 +1,23 @@
 .footer {
-  position: fixed;
+  /* position: fixed; */
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: red;
   color: white;
   text-align: center;
+  clear: both;
+  height: auto;
+  margin: 0;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 12px;
+  background-color: #005099;
+}
+.lpttlogo {
+  width: 120px;
+  height: 70px;
+}
+.googlemap {
+  width: 100%;
+  height: auto;
 }
