@@ -1,0 +1,32 @@
+.partner-section {
+    background-color: #fff;
+    width: 100%;
+    overflow: hidden;
+}
+.container-wrapper {
+    position: relative;
+    max-width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+.container-partner {
+  text-align: center;
+}
+.container-partner-title {
+  width: 100%;
+  margin-top: 35px;
+  text-align: left;
+}
+.container-partner-title .text-partner {
+  padding-left: 15px;
+  color: #44494c;
+  font-family: "Josefin Sans",sans-serif;
+  font-weight: 600;
+  font-size: 23px;
+}
+div {
+  display: block;
+}
+* {
+  box-sizing: border-box;
+}

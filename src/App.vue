@@ -2,6 +2,7 @@
   <div id="app">
     <app-header></app-header>
     <l-article></l-article>
+    <partner></partner>
     <app-footer></app-footer>
     <!-- <div id="nav">
       <router-link to="/">Home</router-link> |
@@ -14,10 +15,12 @@
 import Header from './components/Header'
 import Footer from './components/Footer'
 import article from './views/Article'
+import Partner from './views/Partner'
 export default {
   components: {
     'app-header': Header,
     'l-article': article,
+    'partner': Partner,
     'app-footer': Footer
   },
   data () {

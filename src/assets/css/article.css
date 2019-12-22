@@ -1,0 +1,42 @@
+.article {
+  margin-top: 130px;
+  width: 100%;
+  height: auto;
+}
+.imgArticle{
+  width: 100%;
+  height: auto;
+}
+.detailArticle{
+  height: auto;
+  position: relative;
+  width: 100%;
+  background-image: url("https://i.imgur.com/UJpRxT4.png");
+  background-repeat: no-repeat;
+  background-position: calc(100% - -127px) 100%;
+}
+.sideHeader-section {
+  height: 550px;
+  position: relative;
+  width: 100%;
+  background-image: url(https://res.cloudinary.com/appman-co-ltd/image/upload/v1530090646/bg.png);
+  background-repeat: no-repeat;
+  background-position: calc(100% - -127px) 100%;
+  background-position-x: calc(100% - -127px);
+  background-position-y: 100%;
+}
+div{
+  display: block;
+}
+* {
+  box-sizing: border-box;
+}
+.align-left{
+  text-align: left;
+}
+.align-right{
+  text-align: right;
+}
+.align-center{
+  text-align: center;
+}
