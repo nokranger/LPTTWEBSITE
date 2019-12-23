@@ -8,12 +8,14 @@
   height: auto;
 }
 .detailArticle{
-  height: auto;
+  height: 550px;
   position: relative;
   width: 100%;
-  background-image: url("https://i.imgur.com/UJpRxT4.png");
+  background-color: rgb(34, 186, 224);
+  /* background-image: url("https://i.imgur.com/UJpRxT4.png"); */
   background-repeat: no-repeat;
   background-position: calc(100% - -127px) 100%;
+  /* margin-top: 100px; */
 }
 .sideHeader-section {
   height: 550px;

@@ -24,9 +24,21 @@
   font-weight: 600;
   font-size: 23px;
 }
-div {
-  display: block;
+ul#menu li {
+  display:inline;
 }
+/* div {
+  display: block;
+} */
 * {
   box-sizing: border-box;
+}
+.align-left{
+  text-align: left;
+}
+.align-right{
+  text-align: right;
+}
+.align-center{
+  text-align: center;
 }

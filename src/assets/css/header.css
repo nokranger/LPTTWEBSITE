@@ -50,7 +50,7 @@
 }
 .container-navbar {
   overflow: hidden;
-  background-color: #fff;
+  background-color: #005099;
   position: fixed;
   top: 0;
   width: 100%;
@@ -76,7 +76,7 @@
   justify-content: flex-end;
   float: right;
   width: 60%;
-  background-color: #fff;
+  background-color: #005099;
 }
 .container-navbar-section a {
   font-family: "Josefin Sans",sans-serif;
@@ -84,7 +84,7 @@
   font-size: 18px;
   float: left;
   display: block;
-  color: #4f4f4f;
+  color: #fff;
   text-align: center;
   margin: 42px 2.8% 22px 4%;
   text-decoration: none;

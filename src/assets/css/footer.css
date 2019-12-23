@@ -11,7 +11,7 @@
   font-family: arial;
   font-weight: bold;
   font-size: 12px;
-  background-color: #005099;
+  background-color: #22069c;
 }
 .lpttlogo {
   width: 120px;
@@ -29,4 +29,9 @@
 }
 .align-center{
   text-align: center;
+}
+ul.footers{
+  list-style-type: none;
+  /* margin: 0; */
+  padding-left: 0;
 }

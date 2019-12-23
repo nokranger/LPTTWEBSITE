@@ -1,38 +1,23 @@
 <template>
   <div class="article">
-    <!-- <b-container> -->
-      <!-- <div class="imgArticle">
-        <img class="imgArticle" src="@/assets/img/nature.jpg" alt="">
-      </div> -->
-          <div class="detailArticle">
-            <h1>LPTT</h1>
-            <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas dolorem odio placeat praesentium nihil ratione voluptatem fugiat quibusdam veritatis provident! Iusto soluta unde incidunt voluptate magnam facilis dolorum eius quia?</h1>
-            <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas dolorem odio placeat praesentium nihil ratione voluptatem fugiat quibusdam veritatis provident! Iusto soluta unde incidunt voluptate magnam facilis dolorum eius quia?</h1>
-          </div>
-    <!-- </b-container> -->
-    <!-- <b-container> -->
-      <!-- <div class="sideHeader-section">
-fasfasfasfs
-fasfsafsa
-fasfasfasfsfasf
-asf
-as
-sfsafasfasf
-fasfasfasfasfasfas
-fasfasfasfaws
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem dolorum porro maxime totam aliquid ea inventore tempora. Eos sequi nemo, hic qui mollitia quam minus, pariatur quae quia assumenda quod!
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem dolorum porro maxime totam aliquid ea inventore tempora. Eos sequi nemo, hic qui mollitia quam minus, pariatur quae quia assumenda quod!
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem dolorum porro maxime totam aliquid ea inventore tempora. Eos sequi nemo, hic qui mollitia quam minus, pariatur quae quia assumenda quod!
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem dolorum porro maxime totam aliquid ea inventore tempora. Eos sequi nemo, hic qui mollitia quam minus, pariatur quae quia assumenda quod!
-
-      </div> -->
-    <!-- </b-container> -->
-
+    <div class="detailArticle">
+      <div style="padding-top: 350px;">
+        <h1>{{title}}</h1>
+        <div>
+          <p>{{detailLptt}}</p>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 <script>
 export default {
+  data () {
+    return {
+      title: 'Grow your business with LPTT',
+      detailLptt: 'Logiprotech (Thailand) Co., Ltd. (LPTT) is an Internet of Thing Accelerator company with our main focus is to add values to the client’s operation control. Though we are a newly established, we are striving to become one of the leading Industrial Internets of Thing solution providers. With our production control and logistic management expertise and by applying the precise tracking technology device platform and other internets of thing (IOT), we are able to improve the operation effectiveness of our customer.'
+    }
+  }
 }
 </script>
 <style scoped src="@/assets/css/article.css">
