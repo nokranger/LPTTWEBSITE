@@ -30,14 +30,14 @@
   padding-top:100px;
 }
 .header{
-  background-color: #005099;
-	/* padding: 10px; */
-	padding-left: 0;
-	padding-right: 0;
+  background-color: #29265b;
 	text-align: center;
 	width: 100%;
 	position: fixed;
-    top:0;
+  top: 0;
+  overflow: hidden;
+  z-index: 10;
+  height: auto;
 }
 .align-left{
   text-align: left;
@@ -50,7 +50,7 @@
 }
 .container-navbar {
   overflow: hidden;
-  background-color: #005099;
+  background-color: #29265b;
   position: fixed;
   top: 0;
   width: 100%;
@@ -76,7 +76,7 @@
   justify-content: flex-end;
   float: right;
   width: 60%;
-  background-color: #005099;
+  background-color: #29265b;
 }
 .container-navbar-section a {
   font-family: "Josefin Sans",sans-serif;

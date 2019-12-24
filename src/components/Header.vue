@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <!-- <div>
     <nav class="container-navbar">
       <div class="container-wrapper-navbar">
         <div id="nav-logo" class="container-navbar-logo">
@@ -23,7 +23,27 @@
         </div>
       </div>
     </nav>
-  </div>
+  </div> -->
+  <div>
+  <b-navbar toggleable="lg" type="dark" class="header">
+    <b-navbar-brand href="#">
+      <div>
+        <img style="width: 120px;height: auto;margin: 10px;" src="@/assets/img/lptt-logo.svg" alt="">
+      </div>
+      </b-navbar-brand>
+
+    <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+
+    <b-collapse id="nav-collapse" is-nav>
+      <b-navbar-nav class="align-left">
+        <b-nav-item href="#"><b>Product and Service</b></b-nav-item>
+        <b-nav-item href="#"><b>About</b></b-nav-item>
+        <b-nav-item href="#"><b>Partber</b></b-nav-item>
+        <b-nav-item href="#"><b>Contact</b></b-nav-item>
+      </b-navbar-nav>
+    </b-collapse>
+  </b-navbar>
+</div>
 </template>
 <script>
 export default {}
