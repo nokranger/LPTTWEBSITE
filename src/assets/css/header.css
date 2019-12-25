@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit&display=swap');
 .lpttlogo {
   /* width: 120px;
   height: 70px; */
@@ -104,4 +105,21 @@
 } */
 div {
   /* display: block; */
+}
+b {
+  font-family: 'Kanit', sans-serif;
+  font-size: large;
+  color: white;
+  text-decoration: none;
+}
+b::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: white;
+  transition: width .3s;
+}
+b:hover::after{
+  width: 100%;
 }
