@@ -49,6 +49,7 @@
   }
   ul.address {
     list-style-type: none;
+    padding-left: 0;
   }
   .imgzoom {
     transition: transform .5s;

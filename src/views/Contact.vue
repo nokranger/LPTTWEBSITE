@@ -8,7 +8,7 @@
             <div>
                 <div class="align-center"><h1>CONTACT</h1></div>
                 <div class="align-left">
-                    <ul class="address">
+                    <ul class="address align-center">
                         <li>{{titleOA}}
                             <ul class="address">{{detailOA}}
                                 <li class="align-center"><button><a target="_blank" v-bind:href="linkOA">View Google Map</a></button></li>

@@ -11,11 +11,11 @@
               <ul class="product">
                 <li class="align-center"><b>SENSORS</b><br>
                   <img class="imgzoom" src="@/assets/img/sensor1.jpg" style="width:300px;hieght:300px;margin:10px;" alt="">
-                  <ul>{{dSensor}}</ul>
+                  <ul class="align-left">{{dSensor}}</ul>
                 </li>
                 <li class="align-center"><b>TAG</b><br>
                   <img class="imgzoom" src="@/assets/img/tag1.jpg" style="width:300px;hieght:300px;margin:10px;" alt="">
-                  <ul>{{dTAG}}</ul>
+                  <ul class="align-left">{{dTAG}}</ul>
                 </li>
               </ul>
             </div>
