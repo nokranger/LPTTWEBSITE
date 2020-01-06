@@ -28,8 +28,8 @@
             <div>
               <h3>Contact</h3>
                 <ul class="footers">
-                  <li>Email : info@logiprotech-th.co.th</li>
-                  <li>Tel. : 012345679</li>
+                  <li>Email : <a href="mailto:info@logiprotech-th.co.th">info@logiprotech-th.co.th</a></li>
+                  <li>Tel. : <a href="tel:029090320">+66(0)2909-0320</a></li>
                   <li>Operational Office : 19/125 Soi Sukhumvit 13, Klong Toey Nua, Wattana, Bangkok 10110, Thailand</li>
                 </ul>
             </div>
