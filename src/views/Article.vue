@@ -4,7 +4,7 @@
       <div style="padding-top: 350px;">
         <h1>{{title}}</h1>
         <div>
-          <p>{{detailLptt}}</p>
+          <p style="margin:5px;">{{detailLptt}}</p>
         </div>
       </div>
     </div>

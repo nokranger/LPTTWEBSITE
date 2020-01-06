@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 .footer {
   /* position: fixed; */
   left: 0;
@@ -8,10 +9,11 @@
   clear: both;
   height: auto;
   margin: 0;
-  font-family: arial;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 12px;
   background-color: #29265b;
+  font-size: 18px;
 }
 .lpttlogo {
   width: 120px;
@@ -34,4 +36,8 @@ ul.footers{
   list-style-type: none;
   /* margin: 0; */
   padding-left: 0;
+}
+h6 {
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
 }
