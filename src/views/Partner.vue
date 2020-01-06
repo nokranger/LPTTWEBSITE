@@ -6,7 +6,7 @@
           <div class="container-partner-title">
           </div>
           <div>
-            <div class="align-center"><h1>PARTNER</h1></div>
+            <div class="align-center"><b><h1>PARTNER</h1></b></div>
             <b-container>
               <b-row>
                 <b-col cols="12" sm="12" md="12" lg="6" xl="6"><a target="_blank" href="https://ubisense.com/"><img class="imgzoom" style="border-radius: 20%;" src="@/assets/img/partner-ubisense.jpg" alt=""></a></b-col>
