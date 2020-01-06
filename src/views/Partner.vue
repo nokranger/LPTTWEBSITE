@@ -9,8 +9,8 @@
             <div class="align-center"><h1>PARTNER</h1></div>
             <b-container>
               <b-row>
-                <b-col cols="12" sm="12" md="12" lg="6" xl="6"><img style="border-radius: 20%;" src="@/assets/img/partner-ubisense.jpg" alt=""></b-col>
-                <b-col cols="12" sm="12" md="12" lg="6" xl="6"><img style="border-radius: 20%;" src="@/assets/img/LPT.jpg" alt=""></b-col>
+                <b-col cols="12" sm="12" md="12" lg="6" xl="6"><a target="_blank" href="https://ubisense.com/"><img class="imgzoom" style="border-radius: 20%;" src="@/assets/img/partner-ubisense.jpg" alt=""></a></b-col>
+                <b-col cols="12" sm="12" md="12" lg="6" xl="6"><a target="_blank" href="#"><img class="imgzoom" style="border-radius: 20%;" src="@/assets/img/LPT.jpg" alt=""></a></b-col>
               </b-row>
             </b-container>
           </div>

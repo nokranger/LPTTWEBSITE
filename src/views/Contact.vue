@@ -28,8 +28,8 @@
                 </div>
                 <b-container>
                 <b-row>
-                    <b-col cols="6" sm="6" md="6" lg="6" xl="6"><a href="tel:029090320"><img style="border-radius: 20%;width:100px;height:100px;" src="https://i.imgur.com/IR9SwSq.jpg" alt=""></a></b-col>
-                    <b-col cols="6" sm="6" md="6" lg="6" xl="6"><a href="mailto:info@logiprotech-th.co.th"><img style="border-radius: 20%;width:100px;height:100px;" src="https://i.imgur.com/yQK7Dyc.png" alt=""></a></b-col>
+                    <b-col cols="6" sm="6" md="6" lg="6" xl="6"><a href="tel:029090320"><img class="imgzoom" style="border-radius: 20%;width:100px;height:100px;" src="https://i.imgur.com/IR9SwSq.jpg" alt=""></a></b-col>
+                    <b-col cols="6" sm="6" md="6" lg="6" xl="6"><a href="mailto:info@logiprotech-th.co.th"><img class="imgzoom" style="border-radius: 20%;width:100px;height:100px;" src="https://i.imgur.com/yQK7Dyc.png" alt=""></a></b-col>
                 </b-row>
                 </b-container>
             </div>

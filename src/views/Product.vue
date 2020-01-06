@@ -9,12 +9,12 @@
             <div class="align-center"><h1>PRODUCT</h1></div>
             <div class="align-left">
               <ul class="product">
-                <li>SENSORS<br>
-                  <img src="https://i.imgur.com/UJpRxT4.png" style="width:100px;hieght:100px;" alt="">
+                <li class="align-center"><b>SENSORS</b><br>
+                  <img class="imgzoom" src="@/assets/img/sensor1.jpg" style="width:300px;hieght:300px;margin:10px;" alt="">
                   <ul>{{dSensor}}</ul>
                 </li>
-                <li>TAG<br>
-                  <img src="https://i.imgur.com/UJpRxT4.png" style="width:100px;hieght:100px;" alt="">
+                <li class="align-center"><b>TAG</b><br>
+                  <img class="imgzoom" src="@/assets/img/tag1.jpg" style="width:300px;hieght:300px;margin:10px;" alt="">
                   <ul>{{dTAG}}</ul>
                 </li>
               </ul>
