@@ -8,20 +8,20 @@
             <div>
                 <div class="align-center"><h1>CONTACT</h1></div>
                 <div class="align-left">
-                    <ul>
-                        <li>Office address
-                            <ul>55/39/1 Mhutee 13 Navanakorn Phahoyothin Road, Klong Nueng, Klong Luang, Patumtanee Thailand 12120
-                                <li><button><a target="_blank" href="https://www.google.co.th/maps/place/LOGIPROTECH+(THAILAND)+CO.,LTD./@13.7428174,100.5554025,17z/data=!3m1!4b1!4m5!3m4!1s0x30e29f468d5f8f5b:0x2085bde87d87f06b!8m2!3d13.7428122!4d100.5575912?hl=th">View Google Map</a></button></li>
+                    <ul class="address">
+                        <li>{{titleOA}}
+                            <ul class="address">{{detailOA}}
+                                <li class="align-center"><button><a target="_blank" v-bind:href="linkOA">View Google Map</a></button></li>
                             </ul>
                         </li>
-                        <li>Operational Office
-                            <ul>19/125 Soi Sukhumvit 13, Klong Toey Nua, Wattana, Bangkok 10110, Thailand
-                                <li><button><a target="_blank" href="#">View Google Map</a></button></li>
+                        <li>{{titleOO}}
+                            <ul class="address">{{detailOO}}
+                                <li class="align-center"><button><a target="_blank" v-bind:href="linkOO">View Google Map</a></button></li>
                             </ul>
                         </li>
-                        <li>Administrative Office
-                            <ul>55/39/1 Mhutee 13 Navanakorn Phahoyothin Road, Klong Nueng, Klong Luang, Patumtanee Thailand 12120
-                                <li><button><a target="_blank" href="#">View Google Map</a></button></li>
+                        <li>{{titleAO}}
+                            <ul class="address">{{detailAO}}
+                                <li class="align-center"><button><a target="_blank" v-bind:href="linkAO">View Google Map</a></button></li>
                             </ul>
                         </li>
                     </ul>
@@ -41,6 +41,19 @@
 </template>
 <script>
 export default {
+  data () {
+    return {
+      titleOA: 'Office address',
+      titleOO: 'Operational Office',
+      titleAO: 'Administrative Office',
+      detailOA: '55/39/1 Mhutee 13 Navanakorn Phahoyothin Road, Klong Nueng, Klong Luang, Patumtanee Thailand 12120',
+      detailOO: '19/125 Soi Sukhumvit 13, Klong Toey Nua, Wattana, Bangkok 10110, Thailand',
+      detailAO: '55/39/1 Mhutee 13 Navanakorn Phahoyothin Road, Klong Nueng, Klong Luang, Patumtanee Thailand 12120',
+      linkOA: 'https://www.google.co.th/maps/place/LOGIPROTECH+(THAILAND)+CO.,LTD./@13.7428174,100.5554025,17z/data=!3m1!4b1!4m5!3m4!1s0x30e29f468d5f8f5b:0x2085bde87d87f06b!8m2!3d13.7428122!4d100.5575912?hl=th',
+      linkOO: '#',
+      linkAO: '#'
+    }
+  }
 
 }
 </script>

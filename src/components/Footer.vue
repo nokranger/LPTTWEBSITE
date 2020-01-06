@@ -4,7 +4,7 @@
     <div>
       <b-container>
         <div>
-          <img class="lpttlogo" src="@/assets/img/lptt-logo.svg" alt="lpttlogo">
+          <img class="lpttlogo" src="@/assets/img/lptt-logo2.svg" alt="lpttlogo">
         </div>
         <br>
         <b-row>

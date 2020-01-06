@@ -8,7 +8,7 @@
           <div>
             <div class="align-center"><h1>PRODUCT</h1></div>
             <div class="align-left">
-              <ul>
+              <ul class="product">
                 <li>SENSORS<br>
                   <img src="https://i.imgur.com/UJpRxT4.png" style="width:100px;hieght:100px;" alt="">
                   <ul>{{dSensor}}</ul>

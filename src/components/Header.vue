@@ -28,7 +28,7 @@
   <b-navbar toggleable="lg" type="dark" class="header">
     <b-navbar-brand href="#">
       <div>
-        <router-link to="/" ><img style="width: 120px;height: auto;margin: 10px;" src="@/assets/img/lptt-logo.svg" alt=""></router-link>
+        <router-link to="/" ><img style="width: 120px;height: auto;margin: 10px;" src="@/assets/img/lptt-logo2.svg" alt=""></router-link>
       </div>
       </b-navbar-brand>
 
