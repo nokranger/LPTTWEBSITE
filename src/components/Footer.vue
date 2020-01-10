@@ -1,4 +1,6 @@
 <template>
+<div>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
   <div class="footer align-left">
     <br>
     <div>
@@ -36,7 +38,18 @@
           </b-col>
           <b-col cols="12" sm="12" md="12" lg="4" xl="4">
             <div>
-              <img class="googlemap" src="@/assets/img/google_map_pin.png" alt="map">
+              <!-- <img class="googlemap" src="@/assets/img/google_map_pin.png" alt="map"> -->
+              <div class="card">
+                <img src="@/assets/img/google_map_pin.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><i class="fa fa-location-arrow" aria-hidden="true"></i> LPTT</h5>
+                  <p class="card-text">19/125 Soi Sukhumvit 13, Klong Toey Nua, Wattana, Bangkok 10110, Thailand</p>
+                  <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                  <div class="align-right">
+                    <button class="button"><a class="linkmap" target="_blank" v-bind:href="linkOA"><img style="width:50px;height:50px;" src="https://i.imgur.com/JKjVDrz.png" alt=""></a></button>
+                  </div>
+                </div>
+              </div>
             </div>
           </b-col>
         </b-row>
@@ -54,9 +67,15 @@
       </b-container>
     </div>
   </div>
+</div>
 </template>
 <script>
 export default {
+  data () {
+    return {
+      linkOA: 'https://www.google.co.th/maps/place/LOGIPROTECH+(THAILAND)+CO.,LTD./@13.7428174,100.5554025,17z/data=!3m1!4b1!4m5!3m4!1s0x30e29f468d5f8f5b:0x2085bde87d87f06b!8m2!3d13.7428122!4d100.5575912?hl=th'
+    }
+  }
 
 }
 </script>
