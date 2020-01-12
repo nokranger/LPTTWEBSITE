@@ -27,7 +27,8 @@
                     <b-col cols="12" sm="12" md="12" lg="6" xl="6">
                       <div>
                         <div class="card">
-                          <img src="@/assets/img/google_map_pin.png" class="card-img-top" alt="...">
+                          <img src="https://i.imgur.com/CdVCi8i.png" class="card-img-top imgzoom" alt="...">
+                          <br>
                           <div class="card-body">
                             <h5 class="card-title"><i class="fa fa-location-arrow" aria-hidden="true"></i> {{titleOA}}</h5>
                             <p class="card-text">{{detailOA}}</p><br>
@@ -42,7 +43,8 @@
                     <b-col cols="12" sm="12" md="12" lg="6" xl="6">
                       <div>
                         <div class="card">
-                          <img src="@/assets/img/google_map_pin.png" class="card-img-top" alt="...">
+                          <img src="https://i.imgur.com/CdVCi8i.png" class="card-img-top imgzoom" alt="...">
+                          <br>
                           <div class="card-body">
                             <h5 class="card-title"><i class="fa fa-location-arrow" aria-hidden="true"></i> {{titleOO}}</h5>
                             <p class="card-text">{{detailOO}}</p><br><br>

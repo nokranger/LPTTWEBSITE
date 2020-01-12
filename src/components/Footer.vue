@@ -38,9 +38,8 @@
           </b-col>
           <b-col cols="12" sm="12" md="12" lg="4" xl="4">
             <div>
-              <!-- <img class="googlemap" src="@/assets/img/google_map_pin.png" alt="map"> -->
               <div class="card">
-                <img src="@/assets/img/google_map_pin.png" class="card-img-top" alt="...">
+                <img src="https://i.imgur.com/CdVCi8i.png" class="card-img-top imgzoom" alt="...">
                 <div class="card-body">
                   <h5 class="card-title"><i class="fa fa-location-arrow" aria-hidden="true"></i> LPTT</h5>
                   <p class="card-text">19/125 Soi Sukhumvit 13, Klong Toey Nua, Wattana, Bangkok 10110, Thailand</p>

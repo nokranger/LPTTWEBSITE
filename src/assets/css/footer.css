@@ -74,3 +74,11 @@ a {
 li.spaced:before {
   content: "\00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0";
 }
+.imgzoom {
+  transition: transform .5s;
+}
+.imgzoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
