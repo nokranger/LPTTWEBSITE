@@ -103,6 +103,9 @@ export default {
       linkOA: '#',
       linkOO: 'https://www.google.co.th/maps/place/LOGIPROTECH+(THAILAND)+CO.,LTD./@13.7428174,100.5554025,17z/data=!3m1!4b1!4m5!3m4!1s0x30e29f468d5f8f5b:0x2085bde87d87f06b!8m2!3d13.7428122!4d100.5575912?hl=th'
     }
+  },
+  created () {
+    document.title = 'Contact LPTT - LPTT'
   }
 
 }

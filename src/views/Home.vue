@@ -17,6 +17,9 @@ export default {
     // HelloWorld,
     'l-article': Article,
     'partner': Partner
+  },
+  created () {
+    document.title = 'Home LPTT - LPTT'
   }
 }
 </script>

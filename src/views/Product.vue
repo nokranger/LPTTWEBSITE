@@ -55,6 +55,9 @@ export default {
       dSmartSpace: 'The SmartSpace™ modular software platform uses real-time location and identification data from multiple sources to deliver a real-time digital twin of our customer’s physical operations, proven to drive quality, increase productivity, manage complexity and reduce costs.The SmartSpace™ modular software platform uses real-time location and identification data from multiple sources and creates a real-time digital twin of your physical environment, using the best location-sensing technology and gives you the power to easily analyze, error-proof and automated processes proven to drive quality, increase productivity, manage complexity and reduce costs.',
       dSmartSpace2: '< LPTT is the Sole distributor of Ubisense Products for South East Asia Region >'
     }
+  },
+  created () {
+    document.title = 'Product and Service LPTT - LPTT'
   }
 }
 </script>

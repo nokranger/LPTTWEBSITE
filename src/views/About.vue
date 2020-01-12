@@ -43,6 +43,9 @@ export default {
       detailLptt: 'have been established in June 2018, to serve as the regional office to service our customer in Thailand and neighbor region.',
       detailLptt2: 'Logiprotech (Thailand) Co., Ltd. (LPTT) is an Internet of Thing Accelerator company. Our main focus is to add values to the client’s operation control. With our expertise in production control and logistic management and applying the precise tracking technology device platform　(Ubisense Real-Time Location Services (RTLS) technology)　and other internets of thing (IOT), we able to improve the operation effectiveness of our customer.Though LPTT is a newly established　Company, we are striving to become one of the leading Industrial Internets of Thing solution providers.'
     }
+  },
+  created () {
+    document.title = 'About LPTT - LPTT'
   }
 
 }
