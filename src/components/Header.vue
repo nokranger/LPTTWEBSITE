@@ -38,7 +38,7 @@
       <b-navbar-nav class="align-left">
         <b-nav-item href="/product"><b>Product and Service</b></b-nav-item>
         <b-nav-item href="#"><b>About</b></b-nav-item>
-        <b-nav-item href="#"><b>Partner</b></b-nav-item>
+        <!-- <b-nav-item href="#"><b>Partner</b></b-nav-item> -->
         <b-nav-item href="/contact"><b>Contact</b></b-nav-item>
       </b-navbar-nav>
     </b-collapse>

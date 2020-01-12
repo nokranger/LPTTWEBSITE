@@ -14,14 +14,14 @@
             <div>
               <h3>Product</h3>
               <ul class="footers">
-                <li>RTL</li>
+                <li>RTLS (Real-Time Location Services)</li>
                 <li>Smart Factory</li>
                 <li>Operating other IOTs</li>
               </ul>
               <div>
                 <h3>Services</h3>
                 <ul class="footers">
-                  <li>We study and analysis currently IoT devices and provide a consultation of what type of the IoT is suitable for each customer and implement them base on their requirement. Prior deliver to our customer, we further modify the system to comply with each customer specification</li>
+                  <li class="spaced">We study and analysis currently IoT devices and provide a consultation of what type of the IoT is suitable for each customer and tailor the system to comply with each customer specification.</li>
                 </ul>
               </div>
             </div>

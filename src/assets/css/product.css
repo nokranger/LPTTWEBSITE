@@ -59,3 +59,9 @@ ul.product{
   -webkit-transform: scale(1.5); /* Safari 3-8 */
   transform: scale(1.5); 
 }
+p.spaced:before {
+  content: "\00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0";
+}
+.card-title {
+  font-weight: bold;
+}

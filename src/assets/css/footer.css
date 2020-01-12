@@ -71,3 +71,6 @@ a {
   background-color: #29265b !important;
   /* background: black !important; */
 }
+li.spaced:before {
+  content: "\00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0";
+}

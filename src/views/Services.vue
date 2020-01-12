@@ -8,7 +8,7 @@
           <div>
             <div class="align-center"><h1>SERVICE</h1></div>
             <div>
-                <p>{{title}}</p>
+                <p class="align-left spaced">{{title}}</p>
             </div>
           </div>
           <br>
@@ -21,7 +21,7 @@
 export default {
   data () {
     return {
-      title: 'We study and analysis currently IoT devices and provide a consultation of what type of the IoT is suitable for each customer and implement them base on their requirement. Prior deliver to our customer, we further modify the system to comply with each customer specification.'
+      title: 'We study and analysis currently IoT devices and provide a consultation of what type of the IoT is suitable for each customer and tailor the system to comply with each customer specification.'
     }
   }
 }
