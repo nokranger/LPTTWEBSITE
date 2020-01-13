@@ -8,26 +8,12 @@
             <div>
               <div class="align-center"><h1>CONTACT</h1></div>
               <br>
-                <!-- <div class="align-left">
-                    <ul class="address align-center">
-                        <li>{{titleOA}}
-                            <ul class="address">{{detailOA}}
-                                <li class="align-center"><button><a target="_blank" v-bind:href="linkOA">View Google Map</a></button></li>
-                            </ul>
-                        </li>
-                        <li>{{titleOO}}
-                            <ul class="address">{{detailOO}}
-                                <li class="align-center"><button><a target="_blank" v-bind:href="linkOO">View Google Map</a></button></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div> -->
                 <b-container class="bv-example-row">
                   <b-row>
                     <b-col cols="12" sm="12" md="12" lg="6" xl="6">
                       <div>
                         <div class="card">
-                          <img src="https://i.imgur.com/CdVCi8i.png" class="card-img-top imgzoom" alt="...">
+                          <img v-b-modal.modal-lgc1 src="https://i.imgur.com/CdVCi8i.png" class="card-img-top" alt="...">
                           <br>
                           <div class="card-body">
                             <h5 class="card-title"><i class="fa fa-location-arrow" aria-hidden="true"></i> {{titleOA}}</h5>
@@ -38,12 +24,15 @@
                             </div>
                           </div>
                         </div>
+                        <b-modal hide-footer id="modal-lgc1" size="lg">
+                          <a class="linkmap" target="_blank" v-bind:href="linkOA"><img style="width:100%" src="https://i.imgur.com/CdVCi8i.png" class="card-img-top" alt="..."></a>
+                        </b-modal>
                       </div>
                     </b-col>
                     <b-col cols="12" sm="12" md="12" lg="6" xl="6">
                       <div>
                         <div class="card">
-                          <img src="https://i.imgur.com/CdVCi8i.png" class="card-img-top imgzoom" alt="...">
+                          <img v-b-modal.modal-lgc2 src="https://i.imgur.com/CdVCi8i.png" class="card-img-top" alt="...">
                           <br>
                           <div class="card-body">
                             <h5 class="card-title"><i class="fa fa-location-arrow" aria-hidden="true"></i> {{titleOO}}</h5>
@@ -54,6 +43,9 @@
                             </div>
                           </div>
                         </div>
+                        <b-modal hide-footer id="modal-lgc2" size="lg">
+                          <a class="linkmap" target="_blank" v-bind:href="linkOA"><img style="width:100%" src="https://i.imgur.com/CdVCi8i.png" class="card-img-top" alt="..."></a>
+                        </b-modal>
                       </div>
                     </b-col>
                   </b-row>

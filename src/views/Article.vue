@@ -8,7 +8,7 @@
             <div>
                 <div class="align-center"><h1>{{title}}</h1></div><br>
                 <div>
-                  <p class="align-left spaced" style="margin:10px;">
+                  <p class="align-left spaced" style="margin:10px;margin-top:-10px;">
                     {{detailLptt}}
                   </p>
                 </div>

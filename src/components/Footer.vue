@@ -39,7 +39,7 @@
           <b-col cols="12" sm="12" md="12" lg="4" xl="4">
             <div>
               <div class="card">
-                <img src="https://i.imgur.com/CdVCi8i.png" class="card-img-top imgzoom" alt="...">
+                <img v-b-modal.modal-lg src="https://i.imgur.com/CdVCi8i.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title"><i class="fa fa-location-arrow" aria-hidden="true"></i> LPTT</h5>
                   <p class="card-text">19/125 Soi Sukhumvit 13, Klong Toey Nua, Wattana, Bangkok 10110, Thailand</p>
@@ -49,6 +49,9 @@
                   </div>
                 </div>
               </div>
+              <b-modal hide-footer id="modal-lg" size="lg">
+                <a class="linkmap" target="_blank" v-bind:href="linkOA"><img style="width:100%" src="https://i.imgur.com/CdVCi8i.png" class="card-img-top" alt="..."></a>
+              </b-modal>
             </div>
           </b-col>
         </b-row>
