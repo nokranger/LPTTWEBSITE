@@ -50,6 +50,6 @@ export default {
 
 }
 </script>
-<style scoped src="@/assets/css/article.css">
+<style scoped src="@/assets/css/about.css">
 
 </style>
