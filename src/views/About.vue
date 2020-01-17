@@ -6,6 +6,9 @@
           <div class="container-partner-title">
           </div>
             <div>
+              <p class="align-left spaced qout">
+                "{{qout}}"
+              </p>
                 <div class="align-center"><h1>{{titleLpt}}</h1></div><br>
                 <div>
                   <p class="align-left spaced" style="margin:10px;">
@@ -37,11 +40,12 @@
 export default {
   data () {
     return {
+      qout: 'IOT is the most renown talked-about topics in the tech industry community and approximately 20 billion devices are predicted to be used in the next 5 years. Companies in all regions are vying to align themselves with the technology to create a new business potential.',
       titleLpt: 'Logiprotech (LPT)',
-      detailLpt: 'first began its operation in Japan in October 2015. Thanks, an IOT, the most renown talked-about topics in the tech industry community and with approximately 20 billion devices predicted in the next 5 years, there are high commercial possibilities. Companies all over the region are vying to align themselves with the technology to create a new business potential. As such',
-      titleLptt: 'Logiprotech (Thailand)',
-      detailLptt: 'have been established in June 2018, to serve as the regional office to service our customer in Thailand and neighbor region.',
-      detailLptt2: 'Logiprotech (Thailand) Co., Ltd. (LPTT) is an Internet of Thing Accelerator company. Our main focus is to add values to the client’s operation control. With our expertise in production control and logistic management and applying the precise tracking technology device platform　(Ubisense Real-Time Location Services (RTLS) technology)　and other internets of thing (IOT), we able to improve the operation effectiveness of our customer.Though LPTT is a newly established　Company, we are striving to become one of the leading Industrial Internets of Thing solution providers.'
+      detailLpt: 'Logiprotech (LPT) was founded in Japan in October 2015. It has been successfully deploying IOT applications based on TPS concept to help dramatically improve production and logistic operations.',
+      titleLptt: 'Logiprotech Thailand (LPTT)',
+      detailLptt: 'Logiprotech (Thailand) was established in June 2017 to serve our customers in Thailand and neighbouring region.',
+      detailLptt2: 'Logiprotech (Thailand) Co., Ltd. (LPTT) is an IOT Accelerator company. Our main focus is to add values to the client’s operation control. With our expertise in production control and logistic management as well as the precise tracking technology device platform　(Real-Time Location Services (RTLS) technology) and other internet of things (IOT), we are aiming to achieve breakthrough improvement for our customers in production and logistic operations.'
     }
   },
   created () {

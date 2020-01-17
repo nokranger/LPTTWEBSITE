@@ -12,7 +12,7 @@
         <b-row>
           <b-col cols="12" sm="12" md="12" lg="4" xl="4">
             <div>
-              <h3>Product</h3>
+              <h3>Products</h3>
               <ul class="footers">
                 <li>RTLS (Real-Time Location Services)</li>
                 <li>Smart Factory</li>
