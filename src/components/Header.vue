@@ -15,7 +15,7 @@
         <b-nav-item href="/about"><b>About us</b></b-nav-item>
         <b-nav-item href="/contact"><b>Contact</b></b-nav-item> -->
       </b-navbar-nav>
-      <b-navbar-nav class="ml-auto">
+      <b-navbar-nav class="ml-auto align-left">
         <b-nav-item href="/product"><b>Products and Services</b></b-nav-item>
         <b-nav-item href="/about"><b>About us</b></b-nav-item>
         <!-- <b-nav-item href="#"><b>Partner</b></b-nav-item> -->
