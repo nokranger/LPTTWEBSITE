@@ -53,4 +53,5 @@ p.spaced:before {
 }
 .qout {
   font-style: italic;
+  font-weight: bold;
 }

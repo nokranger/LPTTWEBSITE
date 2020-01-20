@@ -6,14 +6,76 @@
           <div class="container-partner-title">
           </div>
           <div>
-            <div class="align-center"><h1>Ubisense™ Products</h1></div><br>
-            <div class="align-left">
+            <service></service>
+            <div class="align-center"><h1>Products</h1></div><br>
+            <!-- <div class="align-center"><h1>Ubisense™ Products</h1></div><br> -->
+            <b-container class="align-center">
+                <b-row>
+                  <b-col cols="12" sm="12" md="12" lg="4" xl="4">
+                    <div class="card mb-3">
+                    <img v-b-modal.modal-lgd4 style="width:100%;hieght:auto;" src="https://i.imgur.com/TnQliMa.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Dimension4 Sensor Systems</h5>
+                        <p class="card-text spaced" style="text-overflow: ellipsis;overflow: hidden;white-space: nowrap;">{{dSensor}}</p>
+                      </div>
+                      <b-modal id="modal-lgd4" size="lg" title="Large Modal">
+                        <div class="card mb-3">
+                          <img style="width:100%;hieght:auto;" src="https://i.imgur.com/TnQliMa.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Dimension4 Sensor Systems</h5>
+                            <p class="card-text spaced">{{dSensor}}</p>
+                          </div>
+                        </div>
+                      </b-modal>
+                    </div>
+                  </b-col>
+                  <b-col cols="12" sm="12" md="12" lg="4" xl="4">
+                    <div class="card mb-3">
+                      <img v-b-modal.modal-lgtag style="width:100%;hieght:auto;" src="@/assets/img/tag1_new.jpg" class="card-img-top" alt="...">
+                      <div class="card-body"><br><br>
+                        <h5 class="card-title" style="margin-top:7px;">TAG</h5><br>
+                        <p class="card-text spaced" style="text-overflow: ellipsis;overflow: hidden;white-space: nowrap;">{{dTAG}}</p>
+                      </div>
+                      <b-modal id="modal-lgtag" size="lg" title="Large Modal">
+                        <div class="card mb-3">
+                          <img style="width:100%;hieght:auto;" src="@/assets/img/tag1_new.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">TAG</h5>
+                            <p class="card-text spaced">{{dTAG}}</p>
+                          </div>
+                        </div>
+                      </b-modal>
+                    </div>
+                  </b-col>
+                  <b-col cols="12" sm="12" md="12" lg="4" xl="4">
+                    <div class="card mb-3">
+                      <img v-b-modal.modal-lguss style="width:100%;hieght:auto; !important" src="@/assets/img/smartspace_new.png" class="card-img-top" alt="...">
+                      <div class="card-body"><br>
+                        <h5 class="card-title">Ubisense SmartSpace™ Platform</h5>
+                        <p class="card-text spaced" style="text-overflow: ellipsis;overflow: hidden;white-space: nowrap;">{{dSmartSpace}}</p>
+                        <!-- <p class="card-text" style="text-overflow: ellipsis;overflow: hidden;white-space: nowrap;">{{dSmartSpace2}}</p> -->
+                      </div>
+                      <b-modal id="modal-lguss" size="lg" title="Large Modal">
+                        <div class="card mb-3">
+                          <img style="width:100%;hieght:auto; !important" src="@/assets/img/smartspace_new.png" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Ubisense SmartSpace™ Platform</h5>
+                            <p class="card-text spaced">{{dSmartSpace}}</p>
+                            <p class="card-text">{{dSmartSpace2}}</p>
+                          </div>
+                        </div>
+                      </b-modal>
+                    </div>
+                  </b-col>
+                </b-row>
+                <br>
+            </b-container>
+            <!-- <div class="align-left">
               <div class="card mb-3">
                 <img style="width:100%;hieght:auto;" src="https://i.imgur.com/TnQliMa.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Dimension4 Sensor Systems</h5>
                   <p class="card-text spaced">{{dSensor}}</p>
-                  <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
                 </div>
               </div>
               <div class="card mb-3">
@@ -21,7 +83,6 @@
                 <div class="card-body">
                   <h5 class="card-title">TAG</h5>
                   <p class="card-text spaced">{{dTAG}}</p>
-                  <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
                 </div>
               </div>
               <div class="card mb-3">
@@ -30,16 +91,15 @@
                   <h5 class="card-title">Ubisense SmartSpace™ Platform</h5>
                   <p class="card-text spaced">{{dSmartSpace}}</p>
                   <p class="card-text">{{dSmartSpace2}}</p>
-                  <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
           <br>
         </div>
       </div>
     </div>
-    <service></service>
+    <!-- <service></service> -->
   </div>
 </template>
 <script>

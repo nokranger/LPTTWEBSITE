@@ -50,3 +50,6 @@
   p.spaced:before {
     content: "\00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0";
   }
+  .qout {
+    font-style: italic;
+  }

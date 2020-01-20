@@ -6,9 +6,9 @@
           <div class="container-partner-title">
           </div>
           <div>
-            <div class="align-center"><h1>SERVICE</h1></div>
+            <div class="align-center"><h1>Services</h1></div>
             <div>
-                <p class="align-left spaced">{{title}}</p>
+                <p class="align-left spaced qout">"{{title}}"</p>
             </div>
           </div>
           <br>

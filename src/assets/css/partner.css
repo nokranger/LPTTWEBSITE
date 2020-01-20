@@ -55,3 +55,10 @@ h1,h2,h3,h4,h5,h6,label,p,b,li,ul{
   -webkit-transform: scale(1.5); /* Safari 3-8 */
   transform: scale(1.5); 
 }
+.imgc {
+  /* background-color: #6DB3F2;
+  width: 100%;
+  height: auto; */
+  width: 100%;
+  height: auto;
+}
