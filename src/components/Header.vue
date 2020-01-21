@@ -33,21 +33,19 @@
                     </b-col>
                   </b-row>
                   <b-row>
-                    <b-col cols="4" sm="4" md="4" lg="4" xl="4">
-                      <img class="imgc" src="@/assets/img/toyota2.jpg" alt="">
+                    <b-col class="align-left" cols="6" sm="6" md="6" lg="6" xl="6">
+                      <br>
+                      <img style="width:95%;height:auto;" class="imgc" src="@/assets/img/toyota2.jpg" alt="">
                     </b-col>
-                    <b-col cols="4" sm="4" md="4" lg="4" xl="4">
-                      <img class="imgc" src="@/assets/img/tapp.jpg" alt="">
-                      <!-- <img class="imgc" src="@/assets/img/tdem.jpg" alt=""> -->
+                    <b-col class="align-right" cols="6" sm="6" md="6" lg="6" xl="6">
+                      <img style="width:70%;height:auto;margin-right:50px;" class="imgc" src="@/assets/img/tbs.jpg" alt="">
                     </b-col>
-                    <b-col cols="4" sm="4" md="4" lg="4" xl="4">
-                      <img class="imgc" src="@/assets/img/tbs.jpg" alt="">
+                    <b-col class="align-right" cols="6" sm="6" md="6" lg="6" xl="6">
+                      <br>
+                      <img class="imgc" src="@/assets/img/tag_new.png" alt="">
                     </b-col>
-                    <b-col cols="4" sm="4" md="4" lg="4" xl="4">
-                      <img class="imgc" src="@/assets/img/tag_0.jpg" alt="">
-                    </b-col>
-                    <b-col cols="4" sm="4" md="4" lg="4" xl="4">
-                      <img class="imgc" src="@/assets/img/tdem.jpg" alt="">
+                    <b-col class="align-left" cols="6" sm="6" md="6" lg="6" xl="6">
+                      <img style="width:70%;height:auto;margin-top:-20px;margin-left:50px;" class="imgc" src="@/assets/img/tapp.jpg" alt="">
                     </b-col>
                   </b-row>
                   <b-row>
@@ -69,7 +67,7 @@
 export default {
   data () {
     return {
-      qoute: 'Customer achievement story from ubisense.',
+      qoute: 'Main Customers in Thailand',
       qoute2: 'For project achievements in thailand please contact us'
     }
   }
