@@ -45,7 +45,7 @@ export default {
       detailLpt: 'Logiprotech (LPT) was founded in Japan in October 2015. It has been successfully deploying IOT applications based on TPS concept to help dramatically improve production and logistic operations.',
       titleLptt: 'Logiprotech Thailand (LPTT)',
       detailLptt: 'Logiprotech (Thailand) was established in June 2017 to serve our customers in Thailand and neighbouring region.',
-      detailLptt2: 'Logiprotech (Thailand) Co., Ltd. (LPTT) is an IOT Accelerator company. Our main focus is to add values to the client’s operation control. With our expertise in production control and logistic management as well as the precise tracking technology device platform　(Real-Time Location Services (RTLS) technology) and other internet of things (IOT), we are aiming to achieve breakthrough improvement for our customers in production and logistic operations.'
+      detailLptt2: 'Logiprotech (Thailand) Co., Ltd. (LPTT) is an IOT Accelerator company. Our main focus is to add values to the client’s operation control. With our expertise in production control and logistic management as well as the precise tracking technology device platform (Real-Time Location Services (RTLS) technology) and other internet of things (IOT), we are aiming to achieve breakthrough improvement for our customers in production and logistic operations.'
     }
   },
   created () {

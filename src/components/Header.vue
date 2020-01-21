@@ -23,7 +23,7 @@
         <!-- <b-nav-item href="#"><b>Partner</b></b-nav-item> -->
         <b-nav-item href="/contact"><b>Contact</b></b-nav-item>
           <b-popover target="popover-target-1" triggers="hover" placement="top">
-            <template v-slot:title></template>
+            <template v-slot:title>Customers</template>
             <a target="_blank" href="https://ubisense.com/customers/" style="white-space: nowrap;color:#44494c;font-size: medium;">Abroad achievement stories</a> || <a target="_blank" href="#" style="white-space: nowrap;color:#44494c;font-size: medium;">Thailand project</a>
           </b-popover>
       </b-navbar-nav>
