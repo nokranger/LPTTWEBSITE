@@ -125,6 +125,14 @@ b::after {
 b:hover::after{
   width: 100%;
 }
-a {
+a,h4 {
   font-family: 'Montserrat', sans-serif;
+  color:#44494c;
+}
+.imgc {
+  /* background-color: #6DB3F2;
+  width: 100%;
+  height: auto; */
+  width: 100%;
+  height: auto;
 }

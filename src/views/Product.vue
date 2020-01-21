@@ -18,7 +18,7 @@
                         <h5 class="card-title">Dimension4 Sensor Systems</h5>
                         <p class="card-text spaced" style="text-overflow: ellipsis;overflow: hidden;white-space: nowrap;">{{dSensor}}</p>
                       </div>
-                      <b-modal id="modal-lgd4" size="lg" title="Large Modal">
+                      <b-modal hide-footer id="modal-lgd4" size="lg">
                         <div class="card mb-3">
                           <img style="width:100%;hieght:auto;" src="https://i.imgur.com/TnQliMa.jpg" class="card-img-top" alt="...">
                           <div class="card-body">
@@ -36,7 +36,7 @@
                         <h5 class="card-title" style="margin-top:7px;">TAG</h5><br>
                         <p class="card-text spaced" style="text-overflow: ellipsis;overflow: hidden;white-space: nowrap;">{{dTAG}}</p>
                       </div>
-                      <b-modal id="modal-lgtag" size="lg" title="Large Modal">
+                      <b-modal hide-footer id="modal-lgtag" size="lg">
                         <div class="card mb-3">
                           <img style="width:100%;hieght:auto;" src="@/assets/img/tag1_new.jpg" class="card-img-top" alt="...">
                           <div class="card-body">
@@ -55,7 +55,7 @@
                         <p class="card-text spaced" style="text-overflow: ellipsis;overflow: hidden;white-space: nowrap;">{{dSmartSpace}}</p>
                         <!-- <p class="card-text" style="text-overflow: ellipsis;overflow: hidden;white-space: nowrap;">{{dSmartSpace2}}</p> -->
                       </div>
-                      <b-modal id="modal-lguss" size="lg" title="Large Modal">
+                      <b-modal hide-footer id="modal-lguss" size="lg">
                         <div class="card mb-3">
                           <img style="width:100%;hieght:auto; !important" src="@/assets/img/smartspace_new.png" class="card-img-top" alt="...">
                           <div class="card-body">

@@ -21,7 +21,7 @@
               <div>
                 <h3>Services</h3>
                 <ul class="footers">
-                  <li class="spaced">We study and analysis currently IoT devices and provide a consultation of what type of the IoT is suitable for each customer and tailor the system to comply with each customer specification.</li>
+                  <li>We study and analyse IoT devices to develop a tailored system to comply with customer requirements.</li>
                 </ul>
               </div>
             </div>
