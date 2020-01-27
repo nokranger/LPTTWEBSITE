@@ -18,8 +18,19 @@ export default {
     'l-article': Article,
     'partner': Partner
   },
-  created () {
-    document.title = 'Home LPTT - LPTT'
+  metaInfo () {
+    return {
+      title: 'Home LPTT - LPTT',
+      meta: [
+        {
+          name: 'description',
+          content: 'lptt website, iot, smart factory, RTLS (Real-Time Location Services) Smart Factory, RTLS,real time location systems, rfid solution, rfid, business process design system architect'
+        }
+      ]
+    }
   }
+  // created () {
+  //   document.title = 'Home LPTT - LPTT'
+  // }
 }
 </script>
