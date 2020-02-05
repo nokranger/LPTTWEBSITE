@@ -1,9 +1,7 @@
 <template>
   <div>
-    <meta name="google-site-verification" content="hj-sZSDyD7lXYy51Tj5j2-JBsYZf-3FLY5hj3dUyPaY" />
     <meta name="keywords" content="Lptt company website, lptt website, iot, smart factory, RTLS (Real-Time Location Services) Smart Factory, RTLS,real time location systems, rfid solution, rfid, business process design system architect">
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157841094-1"></script>
     <l-article></l-article>
     <partner></partner>
   </div>
