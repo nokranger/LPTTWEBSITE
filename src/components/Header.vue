@@ -3,7 +3,7 @@
   <b-navbar toggleable="lg" type="dark" class="header">
     <b-navbar-brand href="#">
       <div>
-        <router-link to="/" ><img style="width: 120px;height: auto;margin: 10px;" src="@/assets/img/lptt-logo2.svg" alt=""></router-link>
+        <router-link to="/" ><img style="width: 120px;height: auto;margin: 10px;" src="@/assets/img/lptt-logo2.svg" alt="logoprotech logo"></router-link>
       </div>
       </b-navbar-brand>
 
@@ -11,16 +11,12 @@
 
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav>
-        <!-- <b-nav-item href="/product"><b>Products and Services</b></b-nav-item>
-        <b-nav-item href="/about"><b>About us</b></b-nav-item>
-        <b-nav-item href="/contact"><b>Contact</b></b-nav-item> -->
       </b-navbar-nav>
       <b-navbar-nav class="ml-auto align-left">
         <b-nav-item href="/"><b>Home</b></b-nav-item>
         <b-nav-item href="/product"><b>Products and Services</b></b-nav-item>
         <b-nav-item href="#"><b id="popover-button-open">Customers</b></b-nav-item>
         <b-nav-item href="/about"><b>About us</b></b-nav-item>
-        <!-- <b-nav-item href="#"><b>Partner</b></b-nav-item> -->
         <b-nav-item href="/contact"><b>Contact</b></b-nav-item>
           <b-popover target="popover-button-open" placement="top">
             <template v-slot:title>Customers</template>
@@ -35,17 +31,17 @@
                   <b-row>
                     <b-col class="align-left" cols="6" sm="6" md="6" lg="6" xl="6">
                       <br>
-                      <img style="width:95%;height:auto;" class="imgc" src="@/assets/img/toyota2.jpg" alt="">
+                      <img style="width:95%;height:auto;" class="imgc" src="@/assets/img/toyota2.jpg" alt="logoprotech x toyota">
                     </b-col>
                     <b-col class="align-right" cols="6" sm="6" md="6" lg="6" xl="6">
-                      <img style="width:70%;height:auto;margin-right:50px;" class="imgc" src="@/assets/img/tbs.jpg" alt="">
+                      <img style="width:70%;height:auto;margin-right:50px;" class="imgc" src="@/assets/img/tbs.jpg" alt="logoprotech x tbs">
                     </b-col>
                     <b-col class="align-right" cols="6" sm="6" md="6" lg="6" xl="6">
                       <br>
-                      <img class="imgc" src="@/assets/img/tag_new.png" alt="">
+                      <img class="imgc" src="@/assets/img/tag_new.png" alt="logoprotech x tag">
                     </b-col>
                     <b-col class="align-left" cols="6" sm="6" md="6" lg="6" xl="6">
-                      <img style="width:70%;height:auto;margin-top:-20px;margin-left:50px;" class="imgc" src="@/assets/img/tapp.jpg" alt="">
+                      <img style="width:70%;height:auto;margin-top:-20px;margin-left:50px;" class="imgc" src="@/assets/img/tapp.jpg" alt="logoprotech x tapp">
                     </b-col>
                   </b-row>
                   <b-row>

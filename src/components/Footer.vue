@@ -38,19 +38,19 @@
           </b-col>
           <b-col cols="12" sm="12" md="12" lg="4" xl="4">
             <div>
-              <div class="card">
-                <img v-b-modal.modal-lg src="https://i.imgur.com/CdVCi8i.png" class="card-img-top" alt="...">
+              <div v-b-modal.modal-lg class="card">
+                <img src="https://i.imgur.com/CdVCi8i.png" class="card-img-top" alt="logiprotech logo">
                 <div class="card-body">
                   <h5 class="card-title"><i class="fa fa-location-arrow" aria-hidden="true"></i> LPTT</h5>
                   <p class="card-text">19/125 Soi Sukhumvit 13, Klong Toey Nua, Wattana, Bangkok 10110, Thailand</p>
                   <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
                   <div class="align-right">
-                    <button class="button"><a class="linkmap" target="_blank" v-bind:href="linkOA"><img style="width:50px;height:50px;" src="https://i.imgur.com/JKjVDrz.png" alt=""></a></button>
+                    <button class="button"><a class="linkmap" target="_blank" v-bind:href="linkOA"><img style="width:50px;height:50px;" src="https://i.imgur.com/JKjVDrz.png" alt="map logiprotech"></a></button>
                   </div>
                 </div>
               </div>
               <b-modal hide-footer id="modal-lg" size="lg">
-                <a class="linkmap" target="_blank" v-bind:href="linkOA"><img style="width:100%" src="https://i.imgur.com/CdVCi8i.png" class="card-img-top" alt="..."></a>
+                <a class="linkmap" target="_blank" v-bind:href="linkOA"><img style="width:100%" src="https://i.imgur.com/CdVCi8i.png" class="card-img-top" alt="map logiprotech"></a>
               </b-modal>
             </div>
           </b-col>
@@ -60,7 +60,7 @@
           <b-container>
             <b-col>
               <div class="align-center">
-               <h6>Copyright © 2019 Logiprotech (thailand) co. ltd. All Rights Reserved.Privacy Policy</h6>
+               <h6 style="font-size:14px;">Copyright © 2019 Logiprotech (thailand) co. ltd. All Rights Reserved.Privacy Policy</h6>
               </div>
               <br>
             </b-col>

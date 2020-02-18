@@ -48,8 +48,23 @@ export default {
       detailLptt2: 'Logiprotech (Thailand) Co., Ltd. (LPTT) is an IOT Accelerator company. Our main focus is to add values to the client’s operation control. With our expertise in production control and logistic management as well as the precise tracking technology device platform (Real-Time Location Services (RTLS) technology) and other internet of things (IOT), we are aiming to achieve breakthrough improvement for our customers in production and logistic operations.'
     }
   },
-  created () {
-    document.title = 'About LPTT - LPTT'
+  // created () {
+  //   document.title = 'About LPTT - LPTT'
+  // }
+  metaInfo () {
+    return {
+      title: 'About LPTT - LPTT',
+      meta: [
+        {
+          name: 'description',
+          content: 'LOGIPROTECH (THAILAND) CO.,LTD. Website'
+        },
+        {
+          name: 'keywords',
+          content: 'Lptt company website, lptt website, iot, smart factory, RTLS (Real-Time Location Services) Smart Factory, RTLS,real time location systems, rfid solution, rfid, business process design system architect'
+        }
+      ]
+    }
   }
 
 }

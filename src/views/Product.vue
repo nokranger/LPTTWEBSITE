@@ -8,19 +8,18 @@
           <div>
             <service></service>
             <div class="align-center"><h1>Products</h1></div><br>
-            <!-- <div class="align-center"><h1>Ubisense™ Products</h1></div><br> -->
             <b-container class="align-center">
                 <b-row>
                   <b-col cols="12" sm="12" md="12" lg="4" xl="4">
-                    <div class="card mb-3">
-                    <img v-b-modal.modal-lgd4 style="width:100%;hieght:auto;" src="https://i.imgur.com/TnQliMa.jpg" class="card-img-top" alt="...">
+                    <div v-b-modal.modal-lgd4 class="card mb-3">
+                    <img style="width:100%;hieght:auto;" src="https://i.imgur.com/TnQliMa.jpg" class="card-img-top" alt="Dimension4 Sensor Systems">
                       <div class="card-body">
                         <h5 class="card-title">Dimension4 Sensor Systems</h5>
                         <p class="card-text spaced" style="text-overflow: ellipsis;overflow: hidden;white-space: nowrap;">{{dSensor}}</p>
                       </div>
                       <b-modal hide-footer id="modal-lgd4" size="lg">
                         <div class="card mb-3">
-                          <img style="width:100%;hieght:auto;" src="https://i.imgur.com/TnQliMa.jpg" class="card-img-top" alt="...">
+                          <img style="width:100%;hieght:auto;" src="https://i.imgur.com/TnQliMa.jpg" class="card-img-top" alt="Dimension4 Sensor Systems">
                           <div class="card-body">
                             <h5 class="card-title">Dimension4 Sensor Systems</h5>
                             <p class="card-text spaced">{{dSensor}}</p>
@@ -30,15 +29,15 @@
                     </div>
                   </b-col>
                   <b-col cols="12" sm="12" md="12" lg="4" xl="4">
-                    <div class="card mb-3">
-                      <img v-b-modal.modal-lgtag style="width:100%;hieght:auto;" src="@/assets/img/tag1_new.jpg" class="card-img-top" alt="...">
+                    <div v-b-modal.modal-lgtag class="card mb-3">
+                      <img style="width:100%;hieght:auto;" src="https://i.imgur.com/XYNNYUg.jpg" class="card-img-top" alt="Ubisense TAG">
                       <div class="card-body"><br><br>
                         <h5 class="card-title" style="margin-top:7px;">TAG</h5><br>
                         <p class="card-text spaced" style="text-overflow: ellipsis;overflow: hidden;white-space: nowrap;">{{dTAG}}</p>
                       </div>
                       <b-modal hide-footer id="modal-lgtag" size="lg">
                         <div class="card mb-3">
-                          <img style="width:100%;hieght:auto;" src="@/assets/img/tag1_new.jpg" class="card-img-top" alt="...">
+                          <img style="width:100%;hieght:auto;" src="https://i.imgur.com/XYNNYUg.jpg" class="card-img-top" alt="Ubisense TAG">
                           <div class="card-body">
                             <h5 class="card-title">TAG</h5>
                             <p class="card-text spaced">{{dTAG}}</p>
@@ -48,8 +47,8 @@
                     </div>
                   </b-col>
                   <b-col cols="12" sm="12" md="12" lg="4" xl="4">
-                    <div class="card mb-3">
-                      <img v-b-modal.modal-lguss style="width:100%;hieght:auto; !important" src="@/assets/img/smartspace_new.png" class="card-img-top" alt="...">
+                    <div v-b-modal.modal-lguss class="card mb-3">
+                      <img style="width:100%;hieght:auto; !important" src="https://i.imgur.com/nlKaaiU.png" class="card-img-top" alt="Ubisense SmartSpace™ Platform">
                       <div class="card-body"><br>
                         <h5 class="card-title">Ubisense SmartSpace™ Platform</h5>
                         <p class="card-text spaced" style="text-overflow: ellipsis;overflow: hidden;white-space: nowrap;">{{dSmartSpace}}</p>
@@ -57,7 +56,7 @@
                       </div>
                       <b-modal hide-footer id="modal-lguss" size="lg">
                         <div class="card mb-3">
-                          <img style="width:100%;hieght:auto; !important" src="@/assets/img/smartspace_new.png" class="card-img-top" alt="...">
+                          <img style="width:100%;hieght:auto; !important" src="https://i.imgur.com/nlKaaiU.png" class="card-img-top" alt="Ubisense SmartSpace™ Platform">
                           <div class="card-body">
                             <h5 class="card-title">Ubisense SmartSpace™ Platform</h5>
                             <p class="card-text spaced">{{dSmartSpace}}</p>
@@ -70,36 +69,11 @@
                 </b-row>
                 <br>
             </b-container>
-            <!-- <div class="align-left">
-              <div class="card mb-3">
-                <img style="width:100%;hieght:auto;" src="https://i.imgur.com/TnQliMa.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Dimension4 Sensor Systems</h5>
-                  <p class="card-text spaced">{{dSensor}}</p>
-                </div>
-              </div>
-              <div class="card mb-3">
-                <img style="width:100%;hieght:auto;" src="@/assets/img/tag1.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">TAG</h5>
-                  <p class="card-text spaced">{{dTAG}}</p>
-                </div>
-              </div>
-              <div class="card mb-3">
-                <img style="width:100%;hieght:auto; !important" src="https://i.imgur.com/l78uXYX.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Ubisense SmartSpace™ Platform</h5>
-                  <p class="card-text spaced">{{dSmartSpace}}</p>
-                  <p class="card-text">{{dSmartSpace2}}</p>
-                </div>
-              </div>
-            </div> -->
           </div>
           <br>
         </div>
       </div>
     </div>
-    <!-- <service></service> -->
   </div>
 </template>
 <script>
@@ -116,8 +90,20 @@ export default {
       dSmartSpace2: '< LPTT is the Sole distributor of Ubisense Products for South East Asia Region >'
     }
   },
-  created () {
-    document.title = 'Product and Service LPTT - LPTT'
+  metaInfo () {
+    return {
+      title: 'Product and Service LPTT - LPTT',
+      meta: [
+        {
+          name: 'description',
+          content: 'LOGIPROTECH (THAILAND) CO.,LTD. Website'
+        },
+        {
+          name: 'keywords',
+          content: 'Lptt company website, lptt website, iot, smart factory, RTLS (Real-Time Location Services) Smart Factory, RTLS,real time location systems, rfid solution, rfid, business process design system architect'
+        }
+      ]
+    }
   }
 }
 </script>
