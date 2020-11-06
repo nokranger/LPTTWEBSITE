@@ -1,6 +1,6 @@
 <template>
   <div>
-    <meta name="google-site-verification" content="hj-sZSDyD7lXYy51Tj5j2-JBsYZf-3FLY5hj3dUyPaY" />
+    <meta name="google-site-verification" content="Ugkd81wfTNKetxxyqO_pG3jvU3FfZWZiw2atG9gaDBk" />
     <meta name="keywords" content="Lptt company website, lptt website, iot, smart factory, RTLS (Real-Time Location Services) Smart Factory, RTLS,real time location systems, rfid solution, rfid, business process design system architect">
     <l-article></l-article>
     <partner></partner>
@@ -34,7 +34,7 @@ export default {
         },
         {
           name: 'google-site-verification',
-          content: 'hj-sZSDyD7lXYy51Tj5j2-JBsYZf-3FLY5hj3dUyPaY'
+          content: 'Ugkd81wfTNKetxxyqO_pG3jvU3FfZWZiw2atG9gaDBk'
         }
       ]
     }
