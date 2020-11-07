@@ -5,7 +5,12 @@ import store from './store'
 import BootstrapVue from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
+import VueAnalytic from 'vue-analytics'
 
+Vue.use(VueAnalytic, {
+  id: 'UA-157841094-1',
+  router
+})
 Vue.use(BootstrapVue)
 
 Vue.config.productionTip = false
